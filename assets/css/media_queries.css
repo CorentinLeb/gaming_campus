@@ -1,0 +1,14 @@
+@media screen and (max-width: 425px) {
+
+    .first_button {
+        display: inline;
+        width: 50%;
+    }
+
+    .info_contact {
+        width: 100%;
+        word-break: break-all;
+    }
+   
+   
+}

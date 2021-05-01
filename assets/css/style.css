@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'MontSerrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'MontSerrat Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+* {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body {
+    font-family: 'MontSerrat';
+}
+
+#nav_ {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(97, 91, 91);
+    width: 6em;
+    font-size: 1.2rem;
+}
+
+nav {
+    margin-bottom: 40px;
+  
+}
+
+li {
+    list-style-type: none;
+
+}
+
+hr {
+    margin: 50px 150px 50px 150px;
+    opacity: 0.33em
+}
+
+.first_ul {
+    font-family: 'MontSerrat';
+    list-style: none;    
+    text-align: center;  
+    text-transform: uppercase;      
+}
+
+.first_li {
+    display: inline;    
+}
+
+.logo_gc {
+    width: 25%;
+    margin-top: 10px;
+}
+
+.gbs_p {
+    color: white;
+    margin-top: 20px;
+}
+
+.gbs {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.first_p {
+    color: white;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: purple;
+    border-top: 45px solid purple;
+    padding-top: 15px;
+}
+
+.gc_accueil {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gaming_home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.first_button {
+    border: 1px solid white;
+    width: 20%;
+    color: white;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 8px 0px 8px 10px;
+    text-align: center;
+}
+
+.presentation {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;;    
+}
+
+#size_div_2 {
+    width: 25%;
+}
+
+.trio {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 0px;
+}
+
+#logo_png {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.second_button {
+    border: 1px solid white;
+    width: 20%;
+    color: white;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#size_div {
+    width: 15%;
+}
+
+.news>h2 {
+    text-transform: uppercase;
+}
+
+.news_campus {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#gc_campus {
+    box-shadow: 5px 5px 5px 5px rgb(180, 164, 164);
+    border-radius: 15px;
+}
+
+#color_p {
+    color: purple;
+    text-transform: uppercase;
+}
+
+.contact_size {
+    width: 15%;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+#h_footer {
+    text-transform: uppercase;
+}
+
+.info_contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo_social {
+    width: 15px;
+    padding: 5px;
+}
+
+.more {
+    margin: 10px;
+}
+
+#press_flex {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.p_press {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.press {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.partners {
+    background: black;
+}
+
+.h_partner {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.partner_logo {
+    margin-left: 250px;
+    word-spacing: 2rem;
+}
